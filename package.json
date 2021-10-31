@@ -1,5 +1,6 @@
 {
   "name": "pomodoro",
+  "homepage": "https://kurtzhou1.github.io/Pomodoro_deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/react-redux": "^7.1.9",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,6 +20,8 @@
     "typescript": "^3.9.6"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
