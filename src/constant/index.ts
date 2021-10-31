@@ -1,0 +1,7 @@
+export const CHANGE_TEXT = 'CHANGE_TEXT';
+export const ADD_TODOLIST = 'ADD_TODOLIST';
+export const DONE_TODOLIST = 'DONE_TODOLIST';
+export const REMOVE_TODOLIST = 'REMOVE_TODOLIST';
+export const TIME_START = 'TIME_START';
+export const SELECT_RADIO_VALUE = 'SELECT_RADIO_VALUE';
+export const HAS_DONE_ITEM = 'HAS_DONE_ITEM';
